@@ -3,7 +3,6 @@
 This is an original beginner-friendly HTML, CSS, and JavaScript implementation of the SR University timetable workflow.
 
 GitHub: https://github.com/bhuvanprakashchippa/Timetable-Comparator
-Source classroom finder: https://empty-class-rooms.vercel.app/
 
 ## Run
 
