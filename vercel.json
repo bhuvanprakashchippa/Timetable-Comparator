@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/classroom-data", "destination": "/api/index" },
+    { "source": "/get-yearbpublic", "destination": "/api/index" },
+    { "source": "/get-batchbpublic", "destination": "/api/index" },
+    { "source": "/batchReport", "destination": "/api/index" },
+    { "source": "/searchBatchReport2Public", "destination": "/api/index" }
+  ]
+}

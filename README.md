@@ -15,6 +15,16 @@ and CSRF token, and browsers cannot call that site reliably from a static page.
 
 Opening `index.html` directly or using Live Server will not provide the proxy.
 
+## Deploy with Vercel
+
+Vercel runs the API proxy from `api/index.js`, so the timetable search also works after deployment.
+
+1. Install the Vercel CLI with `npm install -g vercel`.
+2. Run `vercel` from this folder and follow the prompts.
+3. Run `vercel --prod` to publish the production site.
+
+GitHub Pages can host the interface and classroom fallback, but it cannot run the timetable API proxy.
+
 ## How the data works
 
 The app uses the public SR University report endpoints:
